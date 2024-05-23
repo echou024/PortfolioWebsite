@@ -17,11 +17,15 @@
     margin-bottom: 1.5rem;
 }
 
-.Desc {
+.Desc, .BottomDesc {
     font-weight: 400;
     font-size: 1rem;
     max-width: 50rem;
     padding: 0 2rem;
+}
+
+.BottomDesc {
+    margin-bottom: 4rem;
 }
 
 .fields {
@@ -51,4 +55,11 @@
     font-weight: 200;
     margin-top: 1.6rem;
 
+}
+
+@media screen and (max-width:840px){
+    .Desc, .BottomDesc {
+        right: -10vw;
+    }
+    
 }

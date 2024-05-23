@@ -29,7 +29,7 @@ const Aboutme = () => {
                 </div>
             </div>
         </div>
-        <span className='Desc'>Besides Computer Science, I love dogs, astrology(I’m a cancer!), and trying new food spots with my friends!<br/><br/>Feel free to download my resume on the Home Page to see more of my skills. I love to hear about new opportunities and experiences in the AI/Data Science or Software Engineering realm so feel free to reach out!</span>
+        <span className='BottomDesc'>Besides Computer Science, I love dogs, astrology(I’m a cancer!), and trying new food spots with my friends!<br/><br/>Feel free to download my resume on the Home Page to see more of my skills. I love to hear about new opportunities and experiences in the AI/Data Science or Software Engineering realm so feel free to reach out!</span>
     </section>
   )
 }
