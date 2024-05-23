@@ -28,11 +28,10 @@ const Skills = () => {
   return (
     <section id='skills'>
         <h2 className='skillsTitle'>Skills</h2>
-        <br/>
         <span className='degree'> <b>Education:   </b>B.S. Computer Science with Business Applications</span>
         <br/>
         <br/>
-        <span className='coursesTitle'> <b>Relevant Coursework: </b></span>
+        <span className='degree'> <b>Relevant Coursework: </b></span>
         <br/>
         <div className='coursesImgs'>
           <img src={ml} alt="machine learning" className='courseImg' />
@@ -46,7 +45,7 @@ const Skills = () => {
         <br/>
         <br/>
         <br/>
-        <span className='coursesTitle'> <b>Programming Languages: </b></span>
+        <span className='degree'> <b>Programming Languages: </b></span>
         <br/>
         <div className='coursesImgs'>
           <img src={py} alt="python" className='courseImg' />
@@ -58,7 +57,7 @@ const Skills = () => {
         <br/>
         <br/>
         <br/>
-        <span className='coursesTitle'> <b>Frameworks & Libraries: </b></span>
+        <span className='degree'> <b>Frameworks & Libraries: </b></span>
         <br/>
         <div className='coursesImgs'>
           <img src={r} alt="react.js" className='courseImg' />
@@ -72,7 +71,7 @@ const Skills = () => {
         <br/>
         <br/>
         <br/>
-        <span className='coursesTitle'> <b>Tools: </b></span>
+        <span className='degree'> <b>Tools: </b></span>
         <br/>
         <div className='coursesImgs'>
           <img src={ex} alt="excel" className='courseImg' />

@@ -28,14 +28,14 @@
     margin-bottom: 4rem;
 }
 
-.fields {
+.fields1 {
     margin: 1.5rem;
     width: 100vw;
     max-width: 80%;
     text-align: left;
 }
 
-.field {
+.field1 {
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;
@@ -43,14 +43,14 @@
     background: rgb(50, 50, 50);
 }
 
-.fieldImg {
+.fieldImg1 {
     object-fit: cover;
     height: 5rem;
     width: 5rem;
     margin-right: 2rem;
 }
 
-.fieldText {
+.fieldText1 {
     font-size: 0.9rem;
     font-weight: 200;
     margin-top: 1.6rem;

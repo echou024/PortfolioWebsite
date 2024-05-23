@@ -9,22 +9,22 @@ const Aboutme = () => {
     <section id='Info'>
         <span className='InfoTitle'>About Me</span>
         <span className='Desc'>My name is Eva Choudhary and I am from Manhattan Beach, California. I am currently a junior at the University of California, Riverside studying Computer Science and Business. <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, web development, and Data Analytics, and am pursuing a career in that direction. </span>
-        <div className='fields'>
-            <div className='field'>
+        <div className='fields1'>
+            <div className='field1'>
                 <img src={ml} alt="AI Image" className='fieldImg'/>
-                <div className='fieldText'>
+                <div className='fieldText1'>
                     <h2>Artificial Intelligence</h2>
                 </div>
             </div>
-            <div className='field'>
+            <div className='field1'>
                 <img src={webdev} alt="webdev image" className='fieldImg'/>
-                <div className='fieldText'>
+                <div className='fieldText1'>
                     <h2>Web Development</h2>
                 </div>
             </div>
-            <div className='field'>
+            <div className='field1'>
                 <img src={data} alt="data analytics image" className='fieldImg'/>
-                <div className='fieldText'>
+                <div className='fieldText1'>
                     <h2>Data Analytics</h2>
                 </div>
             </div>
