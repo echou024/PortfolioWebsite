@@ -11,7 +11,7 @@ import log from '../../assets/logreg.png'
 
 const Works = () => {
   return (
-    <section id='Info'>
+    <section id='works'>
     
         <h2 className='PortfolioTitle'>Portfolio</h2>
         {/* Certifications */}
