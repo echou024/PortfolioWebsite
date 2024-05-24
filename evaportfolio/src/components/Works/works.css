@@ -62,3 +62,7 @@
     bottom: 10px;
 }
 
+.body-no-scroll {
+    overflow: hidden;
+  }
+  

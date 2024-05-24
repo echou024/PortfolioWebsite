@@ -1,5 +1,5 @@
 import React from 'react';
-import './modal.css'; // Assume you have some basic styles for the modal
+import './modal.css'; 
 
 const Modal = ({ isOpen, children, onClose }) => {
   if (!isOpen) return null;
@@ -14,4 +14,4 @@ const Modal = ({ isOpen, children, onClose }) => {
   );
 };
 
-export default Modal; 
+export default Modal;
