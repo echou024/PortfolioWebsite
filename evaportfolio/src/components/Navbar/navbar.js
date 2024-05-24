@@ -2,18 +2,22 @@ import React, { useState }from 'react'
 import './navbar.css'
 import Elogo from '../../assets/Elogo.png'
 import contactIMG from '../../assets/contact.png'
-import {Link} from 'react-scroll' 
+import {Link, animateScroll as scroll } from 'react-scroll' 
 import menu from '../../assets/menu.png'
 
 
 
 const Navbar = () => {
+
   const[showMenu, setShowMenu] = useState(false);
+  
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
+
   return (
     <nav className="navbar">
-        <button className="logoBtn" onClick={() => {
-            document.getElementById('intro').scrollIntoView({behavior: 'smooth'});
-        }}>
+        <button onClick={scrollToTop} className="logoBtn">
           <img src={Elogo} alt="Logo" className='logo'/>
         </button>
        
