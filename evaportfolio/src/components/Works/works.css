@@ -36,6 +36,7 @@
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
     background: rgb(50, 50, 50);
+    position: relative;
 }
 
 .fieldImg {
@@ -50,3 +51,14 @@
     font-weight: 200;
     margin-top: 0.5rem;
 }
+
+.infoIcon {
+    object-fit: cover;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 5rem;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
