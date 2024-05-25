@@ -8,7 +8,6 @@ import aisc from '../../assets/aisc.png';
 import chatbot from '../../assets/chatbot.png';
 import db from '../../assets/database.png';
 import log from '../../assets/logreg.png';
-import i from '../../assets/info.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

@@ -26,19 +26,19 @@ const Aboutme = () => {
         </span>
         <div className='fields1'>
             <div className='field1' data-aos="zoom-in">
-                <img src={ml} alt="AI Image" className='fieldImg'/>
+                <img src={ml} alt="AI" className='fieldImg'/>
                 <div className='fieldText1'>
                     <h2>Artificial Intelligence</h2>
                 </div>
             </div>
             <div className='field1' data-aos="zoom-in">
-                <img src={webdev} alt="webdev image" className='fieldImg'/>
+                <img src={webdev} alt="webdev" className='fieldImg'/>
                 <div className='fieldText1'>
                     <h2>Web Development</h2>
                 </div>
             </div>
             <div className='field1' data-aos="zoom-in">
-                <img src={data} alt="data analytics image" className='fieldImg'/>
+                <img src={data} alt="data analytics" className='fieldImg'/>
                 <div className='fieldText1'>
                     <h2>Data Analytics</h2>
                 </div>
