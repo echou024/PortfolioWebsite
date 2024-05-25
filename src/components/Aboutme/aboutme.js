@@ -25,19 +25,19 @@ const Aboutme = () => {
             <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, web development, and Data Analytics, and am pursuing a career in that direction.
         </span>
         <div className='field1' data-aos="zoom-in">
-            <img src={ml} alt="Illustration of artificial intelligence concepts" className='fieldImg'/>
+            <img src={ml} className='fieldImg'/>
             <div className='fieldText1'>
                 <h2>Artificial Intelligence</h2>
             </div>
         </div>
         <div className='field1' data-aos="zoom-in">
-            <img src={webdev} alt="Web development tools and code snippets" className='fieldImg'/>
+            <img src={webdev} className='fieldImg'/>
             <div className='fieldText1'>
                 <h2>Web Development</h2>
             </div>
         </div>
         <div className='field1' data-aos="zoom-in">
-            <img src={data} alt="Charts and data visualizations representing data analytics" className='fieldImg'/>
+            <img src={data} className='fieldImg'/>
             <div className='fieldText1'>
                 <h2>Data Analytics</h2>
             </div>
