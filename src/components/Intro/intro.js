@@ -25,7 +25,7 @@ const Intro = () => {
         <div className='introContent' data-aos="fade-up">
             <span className='hello' data-aos="fade-right">Hello,</span>
             <span className='introText' data-aos="fade-left">I'm <span className="introName"><ReactTypingEffect text={["Eva"]} /></span><br/>Computer Science Student</span>
-            <p className='introPara' data-aos="fade-up">I am a Computer Science student passionate about utilizing advanced technologies to uncover insights and create impactful digital solutions.</p>
+            <p className='introPara' data-aos="fade-up">I am a Computer Science student passionate about utilizing advanced <br/> technologies to uncover insights and create impactful digital solutions.</p>
             <a href="EvaChoudharyResume.pdf" target="_blank" download="EvaChoudharyResume.pdf" rel="noreferrer" className="Resume">
                 <button className='btn' data-aos="zoom-in">
                     <img src={btnImg} alt='Download Icon' className='downloadImg'/>
