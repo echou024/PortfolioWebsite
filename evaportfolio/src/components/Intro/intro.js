@@ -10,11 +10,13 @@ import 'aos/dist/aos.css';
 const Intro = () => {
   useEffect(() => {
     AOS.init({
-      duration: 2000,  
-      once: false,  
-      mirror: true  
+      duration: 1500,  // Increase duration for a smoother effect
+      easing: 'ease-in-out-sine',  // Smoother easing function
+      once: false,
+      mirror: true,
+      offset: 200  // Start animation sooner (200px before the element is in view)
     });
-    
+
     AOS.refresh();
   }, []);
 
@@ -23,7 +25,7 @@ const Intro = () => {
         <div className='introContent' data-aos="fade-up">
             <span className='hello' data-aos="fade-right">Hello,</span>
             <span className='introText' data-aos="fade-left">I'm <span className="introName"><ReactTypingEffect text={["Eva"]} /></span><br/>Computer Science Student</span>
-            <p className='introPara' data-aos="fade-up">I am a Computer Science student passionate about utilizing advanced <br/> technologies to uncover insights and create impactful digital solutions.</p>
+            <p className='introPara' data-aos="fade-up">I am a Computer Science student passionate about utilizing advanced technologies to uncover insights and create impactful digital solutions.</p>
             <a href="EvaChoudharyResume.pdf" target="_blank" download="EvaChoudharyResume.pdf" rel="noreferrer" className="Resume">
                 <button className='btn' data-aos="zoom-in">
                     <img src={btnImg} alt='Download Icon' className='downloadImg'/>

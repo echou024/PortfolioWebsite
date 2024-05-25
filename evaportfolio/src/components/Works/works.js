@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './works.css';
 import csd from '../../assets/csd.png';
 import acsd from '../../assets/acsd.png';
@@ -16,9 +16,11 @@ const Works = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 1500,
+      easing: 'ease-in-out-sine',
       once: false,
-      mirror: true
+      mirror: true,
+      offset: 200
     });
   }, []);
 
@@ -75,7 +77,7 @@ const Works = () => {
       <span className='sections' data-aos="fade-up"> <b>Projects:</b></span>
       <div className='fields'>
         <div className='field' data-aos="fade-up">
-          <img src={chatbot} alt="AI Image" className='fieldImg' />
+          <img src={chatbot} alt="Personal Assistant Chatbot" className='fieldImg' />
           <div className='fieldText' data-aos="fade-up">
             <h2>Personal Assistant Chatbot</h2>
             <p>
@@ -89,7 +91,7 @@ const Works = () => {
           
         </div>
         <div className='field' data-aos="fade-up">
-          <img src={db} alt="database image" className='fieldImg' />
+          <img src={db} alt="Database Management System for Online Storefront" className='fieldImg' />
           <div className='fieldText' data-aos="fade-up">
             <h2>Database Management System for Online Storefront</h2>
             <p>
@@ -103,7 +105,7 @@ const Works = () => {
             
         </div>
         <div className='field' data-aos="fade-up">
-          <img src={log} alt="logistic regression image" className='fieldImg' />
+          <img src={log} alt="Gradient Descent Optimization for Logistic Regression" className='fieldImg' />
           <div className='fieldText' data-aos="fade-up">
             <h2>Gradient Descent Optimization for Logistic Regression on Breast Cancer Data</h2>
             <p>

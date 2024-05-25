@@ -28,9 +28,11 @@ import col from '../../assets/23.png';
 const Skills = () => {
   useEffect(() => {
     AOS.init({
-      duration: 200,  
+      duration: 1500,  
+      easing: 'ease-in-out-sine',
       once: false,  
-      mirror: true  
+      mirror: true,
+      offset: 200
     });
   }, []);
 
@@ -50,7 +52,6 @@ const Skills = () => {
           <img src={probs} alt="Probability & Statistics for Engineering" className='courseImg' data-aos="zoom-in" />
           <img src={va} alt="visual analytics" className='courseImg' data-aos="zoom-in" />
         </div>
-        {/* <button className='coursesBtn'>See More</button> */}
         <br/>
         <br/>
         <br/>
@@ -96,3 +97,4 @@ const Skills = () => {
 }
 
 export default Skills;
+
