@@ -24,26 +24,25 @@ const Aboutme = () => {
             My name is Eva Choudhary and I am from Manhattan Beach, California. I am currently a junior at the University of California, Riverside studying Computer Science and Business.
             <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, web development, and Data Analytics, and am pursuing a career in that direction.
         </span>
-        <div className='fields1'> // eslint-disable-next-line rule-name
-            <div className='field1' data-aos="zoom-in">
-                <img src={ml} alt="AI" className='fieldImg'/>
-                <div className='fieldText1'>
-                    <h2>Artificial Intelligence</h2>
-                </div>
-            </div> // eslint-disable-next-line rule-name
-            <div className='field1' data-aos="zoom-in">
-                <img src={webdev} alt="webdev" className='fieldImg'/>
-                <div className='fieldText1'>
-                    <h2>Web Development</h2>
-                </div>
-            </div> // eslint-disable-next-line rule-name
-            <div className='field1' data-aos="zoom-in">
-                <img src={data} alt="data analytics" className='fieldImg'/>
-                <div className='fieldText1'>
-                    <h2>Data Analytics</h2>
-                </div>
+        <div className='field1' data-aos="zoom-in">
+            <img src={ml} alt="Illustration of artificial intelligence concepts" className='fieldImg'/>
+            <div className='fieldText1'>
+                <h2>Artificial Intelligence</h2>
             </div>
         </div>
+        <div className='field1' data-aos="zoom-in">
+            <img src={webdev} alt="Web development tools and code snippets" className='fieldImg'/>
+            <div className='fieldText1'>
+                <h2>Web Development</h2>
+            </div>
+        </div>
+        <div className='field1' data-aos="zoom-in">
+            <img src={data} alt="Charts and data visualizations representing data analytics" className='fieldImg'/>
+            <div className='fieldText1'>
+                <h2>Data Analytics</h2>
+            </div>
+        </div>
+
         <span className='BottomDesc' data-aos="fade-up">
             Besides Computer Science, I love dogs, astrology (I’m a cancer!), and trying new food spots with my friends!
             <br/><br/>Feel free to download my resume on the Home Page to see more of my skills. I love to hear about new opportunities and experiences in the AI/Data Science or Software Engineering realm so feel free to reach out!
