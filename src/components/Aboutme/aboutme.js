@@ -22,7 +22,7 @@ const Aboutme = () => {
         <span className='InfoTitle' data-aos="fade-up">About Me</span>
         <span className='Desc' data-aos="fade-up">
             My name is Eva Choudhary and I am from Manhattan Beach, California. I am currently a junior at the University of California, Riverside studying Computer Science and Business.
-            <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, web development, and Data Analytics, and am pursuing a career in that direction.
+            <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, Web Development, and Data Analytics, and am pursuing a career in that direction.
         </span>
         <div className='field1' data-aos="zoom-in">
             <img src={ml} className='fieldImg'/>

@@ -24,6 +24,18 @@ import tab from '../../assets/20.png';
 import pow from '../../assets/21.png';
 import jup from '../../assets/22.png';
 import col from '../../assets/23.png';
+import nex from '../../assets/24.png';
+import ang from '../../assets/25.png';
+import node from '../../assets/26.png';
+import jq from '../../assets/27.png';
+import tail from '../../assets/28.png';
+import firebase from '../../assets/29.png';
+import aws from '../../assets/30.png';
+import stripe from '../../assets/31.png';
+import REST from '../../assets/32.png';
+import mongo from '../../assets/33.png';
+import typesc from '../../assets/34.png';
+
 
 const Skills = () => {
   useEffect(() => {
@@ -77,6 +89,11 @@ const Skills = () => {
           <img src={panda} alt="Pandas" className='courseImg' data-aos="zoom-in" />
           <img src={sea} alt="seaborn" className='courseImg' data-aos="zoom-in" />
           <img src={skl} alt="scikit-learn" className='courseImg' data-aos="zoom-in" />
+          <img src={nex} alt="NextJS" className='courseImg' data-aos="zoom-in" />
+          <img src={ang} alt="Angular.js" className='courseImg' data-aos="zoom-in" />
+          <img src={node} alt="Node.js" className='courseImg' data-aos="zoom-in" />
+          <img src={jq} alt="jQuery" className='courseImg' data-aos="zoom-in" />
+          <img src={tail} alt="Tailwind CSS" className='courseImg' data-aos="zoom-in" />
         </div>
         <br/>
         <br/>
@@ -84,6 +101,12 @@ const Skills = () => {
         <span className='degree' data-aos="fade-up"><b>Tools: </b></span>
         <br/>
         <div className='coursesImgs'>
+          <img src={firebase} alt="firebase" className='courseImg' data-aos="zoom-in" />
+          <img src={aws} alt="aws" className='courseImg' data-aos="zoom-in" />
+          <img src={stripe} alt="stripeAPI" className='courseImg' data-aos="zoom-in" />
+          <img src={REST} alt="RESTAPIs" className='courseImg' data-aos="zoom-in" />
+          <img src={mongo} alt="mongoDB" className='courseImg' data-aos="zoom-in" />
+          <img src={typesc} alt="TypeScript" className='courseImg' data-aos="zoom-in" />
           <img src={ex} alt="excel" className='courseImg' data-aos="zoom-in" />
           <img src={tab} alt="tableau" className='courseImg' data-aos="zoom-in" />
           <img src={pow} alt="powerBI" className='courseImg' data-aos="zoom-in" />
