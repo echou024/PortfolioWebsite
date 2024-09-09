@@ -24,7 +24,7 @@ const Intro = () => {
     <section id='intro'>
         <div className='introContent' data-aos="fade-up">
             <span className='hello' data-aos="fade-right">Hello,</span>
-            <span className='introText' data-aos="fade-left">I'm <span className="introName"><ReactTypingEffect text={["Eva"]} /></span><br/>Computer Science Student</span>
+            <span className='introText' data-aos="fade-left">I'm <span className="introName"><ReactTypingEffect text={["Eva"]} /></span><br/>Computer Science + Business</span>
             <a href="EvaChoudharyResume.pdf" target="_blank" download="EvaChoudharyResume.pdf" rel="noreferrer" className="Resume">
                 <button className='btn' data-aos="zoom-in">
                     <img src={btnImg} alt='Download Icon' className='downloadImg'/>
