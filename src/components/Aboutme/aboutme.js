@@ -21,8 +21,8 @@ const Aboutme = () => {
     <section id='Info'>
         <span className='InfoTitle' data-aos="fade-up">About Me</span>
         <span className='Desc' data-aos="fade-up">
-            My name is Eva Choudhary and I am from Manhattan Beach, California. I am currently a junior at the University of California, Riverside studying Computer Science and Business.
-            <br/> I am proficient in numerous programming languages such as Python, C++, and JavaScript, among others. I am very passionate about AI, Web Development, and Data Analytics, and am pursuing a career in that direction.
+            Hi! I'm Eva Choudhary and I am from Manhattan Beach in Los Angeles, California. I am a senior at the University of California, Riverside studying Computer Science with Business Applications.
+            <br/> I am passionate about AI, Web Development, and Data Analytics, and am currently seeking new grad software engineering roles to apply my skills in full-stack and AI development.
         </span>
         <div className='field1' data-aos="zoom-in">
             <img src={ml} className='fieldImg'/>
@@ -45,7 +45,7 @@ const Aboutme = () => {
 
         <span className='BottomDesc' data-aos="fade-up">
             Besides Computer Science, I love dogs, astrology (I’m a cancer!), and trying new food spots with my friends!
-            <br/><br/>Feel free to download my resume on the Home Page to see more of my skills. I love to hear about new opportunities and experiences in the AI/Data Science or Software Engineering realm so feel free to reach out!
+            <br/><br/>Feel free to download my resume <a href="EvaChoudharyResume.pdf" download="EvaChoudharyResume.pdf" rel="noreferrer" className="Resume">here</a> to see more of my skills. I love to hear about new opportunities and experiences in the AI Development/Software Engineering realm so feel free to reach out!
         </span>
     </section>
   )

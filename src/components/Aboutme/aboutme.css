@@ -57,6 +57,17 @@
 
 }
 
+.Resume {
+    color: white; /* Set default color (black, in this case) */
+    text-decoration: underline; /* Add underline by default */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .Resume:hover {
+    color: #EBC839; /* Change to yellow when hovered */
+  }
+  
+
 @media screen and (max-width:840px){
     .Desc, .BottomDesc {
         right: -10vw;
